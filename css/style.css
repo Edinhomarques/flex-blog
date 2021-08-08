@@ -42,10 +42,57 @@ img {
     padding-top: 10px;
 }
 
-.superinfo p, a {
+.superinfo p, .superinfo a {
     margin: 0 10px 10px 10px
 }
 
 .superinfo a {
     color: #FFFFFFFF;
+}
+
+
+/* Menu */
+
+.menu-bg {
+    background: #2c70ff;
+}
+
+.menu {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: #FFFFFFFF;
+}
+
+.menu-logo {
+    font-size: 2.25em;
+    font-weight: bold;
+    max-width: 0 10px;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.menu-nav a {
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+.menu-nav a:hover {
+    border-color: #122ab2;
+    border-bottom: 0.5px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
 }
